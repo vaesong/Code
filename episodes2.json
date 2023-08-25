@@ -1,0 +1,39 @@
+{
+    "max_episode_length":  {
+           "reach_target": 1,
+           "pick_and_lift": 4,
+           "pick_up_cup": 3,
+           "put_knife_on_chopping_board": 4,
+           "put_money_in_safe": 5,
+           "stack_wine": 6,
+           "slide_block_to_target": 2,
+           "push_button": 2,
+           "take_money_out_safe": 4,
+           "take_umbrella_out_of_umbrella_stand": 3
+   }, 
+   "variable_length": [
+       "push_buttons",
+       "push_repeated_buttons",
+       "close_jar",
+       "open_jar",
+       "hockey",
+       "hit_ball_with_queue",
+       "lamp_on",
+       "put_tray_in_oven",
+       "solve_puzzle",
+       "sweep_to_dustpan",
+       "take_off_weighing_scales",
+       "take_tray_out_of_oven",
+       "tower",
+       "tower2",
+       "tower3",
+       "tower4"
+   ],
+   "broken": [
+       "empty_container",
+       "put_all_groceries_in_cupboard",
+       "set_the_table",
+       "slide_cabinet_open",
+       "weighing_scales"
+   ]
+   }
